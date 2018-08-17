@@ -18,4 +18,23 @@ In recursive program, the solution to base case is provided and solution of bigg
 #### How a particular problem is solved using recursion?
 The idea is represent a problem in terms of one or more smaller problems, and add one or more base conditions that stop recursion. For example, we compute factorial n if we know factorial of (n-1). Base case for factorial would be n = 0. We return 1 when n = 0.
 
-__in a recursive algorithm, the computer "remembers" every previous state of the problem. this information is "held" by the computer on the "**activation stack**" (i.e., inside of each functions workspace)
+__in a recursive algorithm, the computer "remembers" every previous state of the problem. this information is "held" by the computer on the "**activation stack**" (i.e., inside of each functions workspace)__
+
+## recursion is where a function calls itself
+
+[how recursion works (simple explanation)](https://medium.freecodecamp.org/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9)
+
+#### recursive approach in pseudocode
+```
+function look_for_key(box) {
+  for (item in box) {
+    if (item.is_a_box()) {
+      look_for_key(item)
+    } else if (item.is_a_key()) {
+      console.log("found the key!")
+    }
+  }
+}
+```
+
+there is no performance benefit to using recursion over the iterative approach with loops - it can just be clearer to read (simplicity of recursion is sometimes preferred)
