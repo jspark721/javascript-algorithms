@@ -17,3 +17,5 @@ while comparing two sublists for merging, the first element of both lists is tak
 
 ### time complexity:
 the list of size _**N**_ is divided into a max of _**logN**_ parts, and the merging of all sublists into a single list takes _**O(N)**_ time, the **worst case** run time of this algorithm is _**O(NLogN)**_
+
+# Merge Sort (Analysis)
