@@ -20,3 +20,8 @@ worst case analysis is particularly appropriate for "general-purpose" routines a
 -**justifications**: (only big problems are interesting!)
 
 as computers get faster, we think about how much a bigger a problem size we can solve
+
+### What is a "fast" Algorithm?
+- adopt these three biases as guiding principles
+- pursue algorithms whose worst case running time grows slowly as a function of the input size
+- **holy grail** - linear running time or close to it
