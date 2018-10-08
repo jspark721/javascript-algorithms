@@ -58,3 +58,12 @@ linked list is a _linear data structure_ where each element is a _separate objec
 - **doubly linked list** - a list that has two references, one to the next node and another to previous node
 - **multiply linked list** - each node contains two or more link fields, each field being used to connect the same set of data records in a different order of the same set (e.g., by name, by department, by date of birth, etc)
 - **circular linked list** - last node of the list points back to the first node (or the head) of the list
+
+## TLDR ;
+a linked list is an ordered, linear structure similar to an array - but instead of items being placed at indices, they are connected through a chain of references with each item containing a reference to the next item
+
+each link in the chain is called a node (each node is just a plain old javascript object)
+**a linked list is nothing more than objects nested deeply inside of eachother**
+
+Head is reference to the first node in the chain
+A linked list has items accessible only through the parent object (i.e. the previous item)
