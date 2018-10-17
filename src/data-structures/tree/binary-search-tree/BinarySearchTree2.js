@@ -102,3 +102,16 @@ class BST {
     this.root = removeNode(this.root, data);
   }
 }
+
+//create a new binary search tree for testing
+
+const bst = new BST();
+
+bst.add(9);
+bst.add(4);
+bst.add(17);
+bst.add(3);
+bst.add(6);
+bst.add(5);
+bst.add(7);
+bst.add(20);
