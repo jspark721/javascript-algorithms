@@ -115,3 +115,12 @@ bst.add(6);
 bst.add(5);
 bst.add(7);
 bst.add(20);
+
+console.log(bst.findMinHeight());
+console.log(bst.findMaxHeight());
+console.log(bst.isBalanced()); //returns false
+
+bst.add(10);
+console.log(bst.findMinHeight());
+console.log(bst.findMaxHeight());
+console.log(bst.isBalanced()); //returns true
